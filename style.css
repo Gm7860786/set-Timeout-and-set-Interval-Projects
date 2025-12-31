@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* div {
+    width: 100%;
+    height: 250px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.clock {
+    width: 100%;
+    height: 250px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    color: aquamarine;
+    user-select: none;
+}
+
+.otp-box {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(179, 104, 7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-size:24px;
+}
+input {
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.timer {
+    font-size: 24px;
+    margin-top: 8px;
+    color: rgb(7, 119, 7);
+}
+
+.expired {
+    color: red;
+    font-weight: bold;
+}
+
+.loading {
+    width: 100%;
+    height: 250px;
+    background: rgb(21, 172, 71);
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+ .card {
+            background: #e74646;
+            width: 100%;
+            height:250px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .status {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            position: absolute;
+            margin-bottom: 30px;
+            letter-spacing: 1.5px;
+        }
+
+        .progress-box {
+            background: #eee;
+            border-radius: 20px;
+            height: 18px;
+            width: 80%;
+            margin-top: 30px;
+        }
+
+        .progress-bar {
+            height: 100%;
+            width: 0%;
+            border-radius: 20px;
+            background: #3498db;
+            transition: width 0.5s ease;
+        }
+
+        .start { color: #3498db; }
+        .processing { color: #f39c12; }
+        .complete { color: #077a37; }
+
+
